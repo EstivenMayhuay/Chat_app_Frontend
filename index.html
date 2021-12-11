@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="./images/favicon-32x32.png" type="image/x-icon">
+  <link rel="stylesheet" href="main.css">
+  <title>Simple Booking</title>
+
+  <!-- boxicons -->
+  <link href='https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css' rel='stylesheet'>
+
+  <!-- google fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="booking">
+    <div class="wave wave--left"></div>
+    <div class="booking__content">
+      <!-- mobile -->
+      <div class="mobile">
+        <!-- mobile header -->
+        <div class="mobile__header">
+          <span class="icon icon--back"><i class='bx bx-chevron-left'></i></span>
+          <div class="people">
+            <img src="./images/avatar.jpg" alt="hairton mayhuay">
+            <div class="people__info">
+              <h6>Samuel Green</h6>
+              <span>Available to Walk</span>
+            </div>
+          </div>
+          <span class="icon icon--more"><i class='bx bx-dots-vertical-rounded'></i></span>
+        </div>
+
+        <!-- mobile body -->
+        <div class="mobile__body">
+          <p class="message message--receptor animate-left">That sounds great. I'd be happy to discuss more.</p>
+          <p class="message message--receptor animate-left">Could you send me over some pictures of your dog, please?</p>
+          <p class="messageImg animate-right">
+            <img src="./images/dog-image-1.jpg" alt="dog 1">
+            <img src="./images/dog-image-2.jpg" alt="dog 2">
+            <img src="./images/dog-image-3.jpg" alt="dog 3">
+          </p>
+          <p class="message message--emisor animate-right">Here a few pictures. She's a happy girl!!!</p>
+          <p class="message message--emisor animate-right">Can you make it?</p>
+          <p class="message message--receptor animate-left">She looks so happy! The time we discussed works. How long shall i take her out for?</p>
+          <div class="messageWalk animate-left">
+            <span class="icon icon--circle"><i class='bx bx-circle'></i></span>
+            <h5>30 minutes walk</h5>
+            <b>$29</b>
+          </div>
+          <div class="messageWalk animate-left">
+            <span class="icon icon--circle"><i class='bx bx-circle'></i></span>
+            <h5>1 hour walk</h5>
+            <b>$49</b>
+          </div>
+        </div>
+
+        <!-- mobile footer -->
+        <div class="mobile__footer">
+          <input type="text" placeholder="Type a message...">
+          <span class="icon icon--send"><i class='bx bx-right-arrow-alt'></i></span>
+        </div>
+      </div>
+      <!-- info -->
+      <div class="info">
+        <h1>Simple Booking</h1>
+        <p>Stay in touch with our dog walkers through the chat interface. This makes it easy to discuss arrangements and make bookings. Once the walk has been completed you can rate your walker and book again all through the chat.</p>
+      </div>
+    </div>
+    <div class="wave wave--right"></div>
+  </div>
+</body>
+</html>

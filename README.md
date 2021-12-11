@@ -2,7 +2,7 @@
 
 This is a simple booking design & create with CSS3.
 
-**Link live site:** [booking chat app](https://estivenm99.github.io/Chat_app_Frontend/)
+**Link live site:** [booking chat app](https://estivenmayhuay.github.io/Chat_app_Frontend/)
 
 ## **Technologies**
 
